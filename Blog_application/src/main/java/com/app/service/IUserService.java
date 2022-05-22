@@ -6,6 +6,8 @@ import com.app.payload.UserDto;
 
 public interface IUserService {
 	
+	UserDto registerNewUser(UserDto user);
+	
 	UserDto createUser(UserDto user);
 
 	UserDto updateUser(UserDto user, Integer userId);
